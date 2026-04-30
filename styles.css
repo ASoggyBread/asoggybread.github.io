@@ -1,14 +1,15 @@
 header {
   text-align: center;
   padding: 20px;
-  font-size: 2em;
+  font-size: 0; /* removes spacing between spans */
   font-weight: bold;
   background-color: #3a3a3a;
   border-bottom: 2px solid #555;
 }
 
 .title-part {
-  margin: 0; /* removed spacing */
+  margin: 0;
+  font-size: 2rem; /* restore text size */
 }
 
 .part1 {
