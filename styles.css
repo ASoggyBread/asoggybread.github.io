@@ -8,17 +8,21 @@ header {
 }
 
 .title-part {
-  margin: 0 5px;
+  margin: 0; /* removed spacing */
 }
 
 .part1 {
-  color: #ff6b6b; /* red-ish */
+  color: #74c0fc;
 }
 
 .part2 {
-  color: #4dabf7; /* blue */
+  color: #4dabf7;
 }
 
 .part3 {
-  color: #51cf66; /* green */
+  color: #339af0;
+}
+
+.part4 {
+  color: #ffffff;
 }
