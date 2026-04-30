@@ -7,31 +7,19 @@
 }
 
 .title {
-  display: flex;
-  justify-content: center;
-  gap: 0px; /* no spacing */
+  display: inline-flex;   /* key fix */
   font-size: 2rem;
   font-weight: bold;
+  gap: 0;                  /* no spacing */
 }
 
 .title span {
-  display: inline-block;
+  display: block;          /* removes inline whitespace issues */
   margin: 0;
   padding: 0;
 }
 
-.part1 {
-  color: #74c0fc;
-}
-
-.part2 {
-  color: #4dabf7;
-}
-
-.part3 {
-  color: #339af0;
-}
-
-.part4 {
-  color: #ffffff;
-}
+.part1 { color: #74c0fc; }
+.part2 { color: #4dabf7; }
+.part3 { color: #339af0; }
+.part4 { color: #ffffff; }
