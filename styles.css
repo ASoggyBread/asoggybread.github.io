@@ -1,12 +1,24 @@
 header {
   text-align: center;
   padding: 20px;
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: bold;
   background-color: #3a3a3a;
   border-bottom: 2px solid #555;
+}
 
-  background: linear-gradient(90deg, #ff6b6b, #4dabf7, #51cf66);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.title-part {
+  margin: 0 5px;
+}
+
+.part1 {
+  color: #ff6b6b; /* red-ish */
+}
+
+.part2 {
+  color: #4dabf7; /* blue */
+}
+
+.part3 {
+  color: #51cf66; /* green */
 }
