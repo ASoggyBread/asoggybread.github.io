@@ -1,15 +1,23 @@
-header {
+.site-header {
   text-align: center;
   padding: 20px;
-  font-size: 0;
-  font-weight: bold;
   background-color: #3a3a3a;
   border-bottom: 2px solid #555;
+  cursor: pointer;
 }
 
-.title-part {
+.title {
+  display: flex;
+  justify-content: center;
+  gap: 0px; /* no spacing */
   font-size: 2rem;
+  font-weight: bold;
+}
+
+.title span {
+  display: inline-block;
   margin: 0;
+  padding: 0;
 }
 
 .part1 {
