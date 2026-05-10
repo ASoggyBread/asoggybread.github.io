@@ -19,23 +19,57 @@
       padding-top: 50px;
     }
 
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
     a {
       color: #ccc;
       text-decoration: none;
       display: inline-block;
       margin-top: 20px;
     }
+
+
+    .slot {
+      height: 150px;
+      width: 150px;
+      border: 2px solid white;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .slot:hover {
+      background-color: #444;
+      transform: scale(1.05);
+    }
+
   </style>
 </head>
 
 <body>
 
+
 <div id="header-placeholder"></div>
 
-<div class="content">
-  <h1>Page 1</h1>
-  <p>This is a sub-page.</p>
+<h2>Game Title</h2>
 
+<div class="container">
+  <div class="slot" onclick="goToPage('page1.html')">Slot 1</div>
+  <div class="slot" onclick="goToPage('page2.html')">Slot 2</div>
+  <div class="slot" onclick="goToPage('page3.html')">Slot 3</div>
+  <div class="slot" onclick="goToPage('page4.html')">Slot 4</div>
+</div>
+
+<div class="content">
+  <h1></h1>
   <a href="index.html">← Back to Home</a>
 </div>
 

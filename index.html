@@ -23,6 +23,7 @@
 
     .slot {
       height: 150px;
+      width: 150px;
       border: 2px solid white;
       border-radius: 20px;
       display: flex;
@@ -47,7 +48,7 @@
   <div class="slot" onclick="goToPage('page1.html')">Slot 1</div>
   <div class="slot" onclick="goToPage('page2.html')">Slot 2</div>
   <div class="slot" onclick="goToPage('page3.html')">Slot 3</div>
-  <div class="slot" onclick="goToPage('page4.html')">Slot 4</div>
+  <div class="slot" onclick="goToPage('LifeSim.html')">Slot 4</div>
 </div>
 
 <script>
@@ -60,13 +61,6 @@
   function goToPage(url) {
     window.location.href = url;
   }
-</script>
-
-  fetch('header.html')
-    .then(res => res.text())
-    .then(data => {
-      document.getElementById('header-placeholder').innerHTML = data;
-    });
 </script>
 
 </body>
